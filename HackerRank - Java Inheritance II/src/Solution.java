@@ -1,3 +1,4 @@
+//Tester class
 public class Solution{
     public static void main(String []args){
         // Create a new Adder object
