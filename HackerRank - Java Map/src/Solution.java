@@ -2,7 +2,6 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 class Solution {
-
 	public static void main(String[] args) {
 		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
