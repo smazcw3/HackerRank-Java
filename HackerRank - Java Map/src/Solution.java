@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class Solution {
+class Solution {
 
 	public static void main(String[] args) {
 		@SuppressWarnings("resource")
@@ -19,15 +19,14 @@ public class Solution {
 		
 		while(sc.hasNext()){
 			String q = sc.nextLine();
-				try {
-					int result = hashmap.get(q);
-					System.out.println(q + "=" + result);
-				} catch (NullPointerException e) {
-					System.out.println("Not found");
-				}
-				
-			}
-			sc.nextLine();
+			try {
+				int result = hashmap.get(q);
+				System.out.println(q + "=" + result);
+			} catch (NullPointerException e) {
+				System.out.println("Not found");
+			}				
 		}
+		sc.nextLine();	
 	}
+}
 
