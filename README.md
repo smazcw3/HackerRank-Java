@@ -1,2 +1,2 @@
 # HackerRank-Problems
-This repository is for solving Problems appearing in Hackerrank for Java.
+This repository is for solution to problems appearing in Hackerrank for Java.
